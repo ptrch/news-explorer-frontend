@@ -1,0 +1,8 @@
+.header__container {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  background-color: transparent;
+  align-items: center;
+  justify-content: space-between;
+}
