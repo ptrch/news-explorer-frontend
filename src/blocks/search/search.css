@@ -1,6 +1,8 @@
+@import url('./__title/search__title.css');
+@import url('./__text/search__text.css');
 .search {
-  background-image: url("../../images/background.jpg");
-  background-size: cover;
+  margin: 80px auto 0 auto;
+  max-width: 608px;
   box-sizing: border-box;
   color: #ffffff;
 }

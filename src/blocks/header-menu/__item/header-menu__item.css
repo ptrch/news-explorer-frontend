@@ -1,0 +1,14 @@
+@import url(./_article/header-menu__item_article.css);
+@import url(./_underline/header-menu__item_underline.css);
+.header-menu__item {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 32px;
+  height: 60%;
+  margin-top: 30px;
+}

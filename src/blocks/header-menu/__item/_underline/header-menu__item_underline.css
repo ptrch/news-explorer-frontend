@@ -1,0 +1,6 @@
+.header-menu__item_underline {
+  border-bottom: #FFFFFF solid 3px;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}

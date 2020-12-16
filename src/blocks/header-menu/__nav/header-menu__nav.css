@@ -1,0 +1,7 @@
+.header-menu__nav {
+  display: flex;
+  min-height: 80px;
+  height: 100%;
+  align-items: center;
+  margin-right: 104px;
+}

@@ -1,10 +1,10 @@
-@import url(../header/__logo/header__logo.css);
-@import url(../header/__container/header__container.css);
-
-
 .header {
-  align-items: center;
-  border-bottom: 1px solid #A5A5A5;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 576px;
+  margin: auto;
+  background-image: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  background-color: black;
-}
+  }
