@@ -49,6 +49,10 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "bem": "^2.0.0",
+    "bem-tools": "0.0.1",
+    "bem-tools-core": "0.0.3",
+    "bem-tools-create": "^2.3.0",
     "core-js": "^3.4.1"
   },
   "browserslist": [
