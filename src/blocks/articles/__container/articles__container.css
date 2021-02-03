@@ -1,0 +1,7 @@
+.articles__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  margin-top: 64px;
+  margin-bottom: 73px;
+}

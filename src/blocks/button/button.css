@@ -1,4 +1,10 @@
 .button{
+  font-family: Roboto, Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  align-self: center;
   border: 1px solid #FFFFFF;
   cursor: pointer;
   box-sizing: border-box;

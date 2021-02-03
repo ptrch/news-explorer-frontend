@@ -1,8 +1,9 @@
-.title {
+.articles__title-container {
   font-family: 'Roboto Slab', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 46px;
-  margin: 0px;
+  margin: auto;
+  margin-left: 0px;
 }

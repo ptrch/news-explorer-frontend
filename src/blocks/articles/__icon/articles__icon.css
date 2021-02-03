@@ -1,0 +1,17 @@
+
+.articles__icon {
+  position: absolute;
+
+  z-index: 2;
+  right: 24px;
+  top: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+

@@ -26,13 +26,73 @@
       <p class="search__text">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.</p>
       <form class="search__form">
         <input type="text" class="search__input" placeholder="Введите тему новости">
-        <button type="submit" class="search__button">Искать</button>
+        <button type="submit" class="button search__button">Искать</button>
       </form>
 
     </section>
   </header>
 
   <main class="main">
+    <section class="articles container">
+      <h2 class="articles__title-container">Результаты поиска</h2>
+      <div class="articles__container">
+        <a class="articles__link" href="#">
+          <article class="articles__item">
+            <img class="articles__img" src="./images/img1.jpg">
+            <div class="articles__icon articles__icon_not-active"></div>
+            <p class="articles__login">Войдите, чтобы сохранять статьи</p>
+            <p class="articles__date">2 августа, 2019</p>
+            <h3 class="articles__title">Национальное достояние – парки</h3>
+            <p class="articles__text">В 2016 году Америка отмечала важный юбилей:
+              сто лет назад здесь начала складываться система национальных парков –
+              охраняемых территорий, где и сегодня каждый может приобщиться к природе.
+            </p>
+            <p class="articles__origin link" href="https://lenta.ru/" target="_blank">Лента.ру</p>
+          </article>
+        </a>
+        <a class="articles__link" href="#">
+          <article class="articles__item">
+            <img class="articles__img" src="./images/img2.jpg">
+            <div class="articles__icon articles__icon_active"></div>
+            <p class="articles__login">Войдите, чтобы сохранять статьи</p>
+            <p class="articles__date">2 августа, 2019</p>
+            <h3 class="articles__title">Лесные огоньки: история одной фотографии</h3>
+            <p class="articles__text">Фотограф отвлеклась от освещения суровой
+              политической реальности Мексики, чтобы запечатлеть ускользающую
+              красоту одного из местных чудес природы.
+            </p>
+            <p class="articles__origin link" href="https://meduza.io/" target="_blank">Медуза</p>
+          </article>
+        </a>
+        <a class="articles__link" href="#">
+          <article class="articles__item">
+            <img class="articles__img" src="./images/img3.jpg">
+            <div class="articles__icon articles__icon_not-active"></div>
+            <p class="articles__login">Войдите, чтобы сохранять статьи</p>
+            <p class="articles__date">2 августа, 2019</p>
+            <h3 class="articles__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+            <p class="articles__text">Знаменитый фотограф снимает первозданные леса России,
+              чтобы рассказать о необходимости их сохранения. В этот раз он отправился
+              в Двинско-Пинежскую тайгу, где...
+            </p>
+            <p class="articles__origin link" href="https://ria.ru/" target="_blank">Риа</p>
+          </article>
+        </a>
+      </div>
+      <button class="button articles__button">Показать еще</button>
+    </section>
+
+    <section class="preloader container">
+      <div class="preloader__loading">
+        <i class="preloader__spinner"></i>
+        <p class="preloader__text">Идет поиск новостей...</p>
+      </div>
+      <div class="preloader__no-results">
+        <img class="preloader__img" src="./images/notfound.svg" alt="ничего не найдено">
+        <p class="preloader__title">Ничего не найдено</p>
+        <p class="preloader__text">К сожалению по вашему запросу ничего не найдено.</p>
+      </div>
+    </section>
     <section class="author container">
       <img class="author__avatar" src="./images/avatar.jpg" alt="Автор сайта">
       <dev class="author__about">
@@ -54,9 +114,9 @@
       </ul>
       <ul class="footer__socials">
         <li><a href="https://github.com/ptrch" target="_blank" class="footer__social"><img class="footer__icon"
-            src="./images/github.svg" alt="логотип Github"></a></li>
+              src="./images/github.svg" alt="логотип Github"></a></li>
         <li><a href="https://www.facebook.com/alexander.petrichenko" target="_blank" class="footer__social"><img
-            class="footer__icon" src="./images/facebook.svg" alt="логотип Facebook"></a></li>
+              class="footer__icon" src="./images/facebook.svg" alt="логотип Facebook"></a></li>
       </ul>
     </nav>
   </footer>

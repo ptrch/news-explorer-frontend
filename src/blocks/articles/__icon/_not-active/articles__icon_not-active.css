@@ -1,0 +1,11 @@
+.articles__icon_not-active {
+  background-image: url("../../../../images/icon.svg");
+}
+.articles__icon_not-active:hover {
+  cursor: pointer;
+  background-image: url("../../../../images/icon_hover.svg");
+}
+
+.articles__icon_not-active:hover .articles__login {
+  display: flex;
+}

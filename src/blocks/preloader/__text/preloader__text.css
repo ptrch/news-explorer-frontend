@@ -1,11 +1,13 @@
-.search__text {
-  max-width: 545px;
+.preloader__text {
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  margin-bottom: 64px;
-
+  text-align: center;
+  color: #B6BCBF;
+  margin: auto;
+  margin-bottom: 80px;
+  max-width: 344px;
 
 }

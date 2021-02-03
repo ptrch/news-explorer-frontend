@@ -1,0 +1,7 @@
+.preloader__loading {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  max-height: 282px;
+  padding-top: 75px;
+}

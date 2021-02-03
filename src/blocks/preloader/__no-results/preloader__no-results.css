@@ -1,0 +1,6 @@
+.preloader__no-results {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  max-height: 374px;
+}

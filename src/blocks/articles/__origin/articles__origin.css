@@ -1,0 +1,13 @@
+.articles__origin {
+  font-family: Roboto Slab, Inter,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #B6BCBF;
+  margin-left: 24px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

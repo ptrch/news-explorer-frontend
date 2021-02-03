@@ -1,0 +1,10 @@
+@import url('./__text/preloader__text.css');
+@import url('./__title/preloader__title.css');
+@import url('./__img/preloader__img.css');
+@import url('./__loading/preloader__loading.css');
+@import url('./__no-results/preloader__no-results.css');
+@import url('./__spinner/preloader__spinner.css');
+.preloader {
+  background: #F5F6F7;
+  text-align: center;
+}
